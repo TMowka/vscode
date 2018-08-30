@@ -4,7 +4,7 @@
     "git.enableSmartCommit": true,
     "editor.formatOnPaste": false,
     "editor.formatOnType": true,
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
     "editor.renderControlCharacters": false,
     "workbench.startupEditor": "newUntitledFile",
