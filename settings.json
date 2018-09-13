@@ -30,5 +30,6 @@
     "eslint.alwaysShowStatus": true,
     "editor.multiCursorModifier": "alt",
     "window.titleBarStyle": "custom",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": true
 }
