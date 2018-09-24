@@ -31,5 +31,8 @@
     "editor.multiCursorModifier": "alt",
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#405256"
+    }
 }
