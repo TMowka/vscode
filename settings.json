@@ -33,6 +33,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "breadcrumbs.enabled": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#405256"
+        "statusBar.background": "#253747"
     }
 }
