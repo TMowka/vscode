@@ -33,6 +33,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "breadcrumbs.enabled": true,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#1a303d"
+        "statusBar.background": "#1a303d",
+        "activityBarBadge.background": "#1a303d"
     }
 }
