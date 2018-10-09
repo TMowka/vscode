@@ -35,5 +35,6 @@
     "workbench.colorCustomizations": {
         "statusBar.background": "#1A2D3C",
         "activityBarBadge.background": "#29586A"
-    }
+    },
+    "editor.minimap.enabled": false
 }
