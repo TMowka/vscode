@@ -31,7 +31,7 @@
     "editor.multiCursorModifier": "alt",
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "workbench.colorCustomizations": {
         "statusBar.background": "#1A2D3C",
         "activityBarBadge.background": "#29586A"
