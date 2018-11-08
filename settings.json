@@ -36,5 +36,10 @@
         "statusBar.background": "#1A2D3C",
         "activityBarBadge.background": "#29586A"
     },
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    }
 }
