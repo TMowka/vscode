@@ -38,5 +38,6 @@
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
     },
-    "terminal.integrated.rendererType": "dom"
+    "terminal.integrated.rendererType": "dom",
+    "files.eol": "\n"
 }
