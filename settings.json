@@ -36,7 +36,7 @@
     "terminal.integrated.rendererType": "dom",
     "editor.tokenColorCustomizations": {
         "[Default Dark+]": {
-            "comments": "#9e9e9eb7"
+            "comments": "#9e9e9e"
         }
     }
 }
