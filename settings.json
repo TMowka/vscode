@@ -31,13 +31,12 @@
     "editor.multiCursorModifier": "alt",
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "editor.minimap.enabled": false,
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/*/**": true
-    },
     "terminal.integrated.rendererType": "dom",
-    "files.eol": "\n"
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "comments": "#9e9e9e"
+        }
+    }
 }
