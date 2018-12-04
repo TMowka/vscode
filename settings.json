@@ -38,5 +38,6 @@
         "[Default Dark+]": {
             "comments": "#9e9e9e"
         }
-    }
+    },
+    "editor.detectIndentation": false
 }
