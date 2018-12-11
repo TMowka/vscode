@@ -31,7 +31,6 @@
     "editor.multiCursorModifier": "alt",
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "material-icon-theme",
-    "breadcrumbs.enabled": true,
     "editor.minimap.enabled": false,
     "terminal.integrated.rendererType": "dom",
     "editor.tokenColorCustomizations": {
