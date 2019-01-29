@@ -47,10 +47,5 @@
     }
   },
   "editor.detectIndentation": false,
-  "files.eol": "\n",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#00265e",
-    "statusBar.noFolderBackground": "#590059",
-    "statusBar.debuggingBackground": "#500000"
-  }
+  "files.eol": "\n"
 }
