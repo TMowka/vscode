@@ -47,5 +47,13 @@
     }
   },
   "editor.detectIndentation": false,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "statusBar.background": "#333333",
+      "sideBar.background": "#3c3c3c",
+      "list.activeSelectionBackground": "#1e1e1e",
+      "list.inactiveSelectionBackground": "#2d2d2d"
+    }
+  }
 }
