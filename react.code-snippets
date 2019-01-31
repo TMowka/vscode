@@ -1,15 +1,17 @@
 {
-  "Create React Class Component": {
-    "prefix": "crc",
+  "React Class Component": {
+    "prefix": "rcls",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React, { Component } from 'react';",
       "import PropTypes from 'prop-types';",
       "",
       "const propTypes = {",
+      "",
       "};",
       "",
       "const defaultProps = {",
+      "",
       "};",
       "",
       "class ${1:TM_FILENAME_BASE} extends Component {",
@@ -27,17 +29,19 @@
       ""
     ]
   },
-  "Create React Functional Component": {
-    "prefix": "crf",
+  "React Functional Component": {
+    "prefix": "rfn",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React from 'react';",
       "import PropTypes from 'prop-types';",
       "",
       "const propTypes = {",
+      "",
       "};",
       "",
       "const defaultProps = {",
+      "",
       "};",
       "",
       "const ${1:TM_FILENAME_BASE} = (${2:props}) => {",
@@ -53,17 +57,19 @@
       ""
     ]
   },
-  "Create React Memo Component": {
-    "prefix": "crm",
+  "React Memo Functional Component": {
+    "prefix": "rmfn",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React from 'react';",
       "import PropTypes from 'prop-types';",
       "",
       "const propTypes = {",
+      "",
       "};",
       "",
       "const defaultProps = {",
+      "",
       "};",
       "",
       "const ${1:TM_FILENAME_BASE} = React.memo((${2:props}) => (",
@@ -77,17 +83,19 @@
       ""
     ]
   },
-  "Create React Pure Component": {
-    "prefix": "crp",
+  "React Pure Component": {
+    "prefix": "rpcls",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React, { PureComponent } from 'react';",
       "import PropTypes from 'prop-types';",
       "",
       "const propTypes = {",
+      "",
       "};",
       "",
       "const defaultProps = {",
+      "",
       "};",
       "",
       "class ${1:TM_FILENAME_BASE} extends PureComponent {",
