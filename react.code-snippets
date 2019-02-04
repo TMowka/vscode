@@ -106,5 +106,45 @@
       "export default ${TM_FILENAME_BASE};",
       ""
     ]
+  },
+  "Duck": {
+    "prefix": "duck",
+    "scope": "javascript",
+    "body": [
+      "import { Record } from 'immutable';",
+      "import { all } from 'redux-saga/effects';",
+      "",
+      "// #region ---> [ CONSTANTS ] <---",
+      "export const moduleName = '${TM_FILENAME_BASE/${1:/downcase}/}';",
+      "// #endregion ---< [ CONSTANTS ] >---",
+      "",
+      "// #region ---> [ REDUCER ] <---",
+      "export const ReducerRecord = Record({",
+      "});",
+      "",
+      "export default (state = new ReducerRecord(), action) => {",
+      "\tconst { type } = action;",
+      "",
+      "\tswitch (type) {",
+      "\t\tdefault:",
+      "\t\t\treturn state;",
+      "\t}",
+      "};",
+      "// #endregion ---< [ REDUCER ] >---",
+      "",
+      "// #region ---> [ SELECTORS ] <---",
+      "// #endregion ---< [ SELECTORS ] >---",
+      "",
+      "// #region ---> [ ACTION CREATORS ] <---",
+      "// #endregion ---< [ ACTION CREATORS ] >---",
+      "",
+      "// #region ---> [ SAGAS ] <---",
+      "export function* saga() {",
+      "\tyield all([",
+      "\t]);",
+      "}",
+      "// #endregion ---< [ SAGAS ] >---",
+      ""
+    ]
   }
 }
