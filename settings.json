@@ -1,56 +1,57 @@
 {
-  "typescript.check.npmIsInstalled": false,
-  "editor.fontSize": 12,
-  "git.enableSmartCommit": true,
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": true,
-  "editor.renderWhitespace": "boundary",
-  "editor.wordWrap": "on",
-  "editor.renderControlCharacters": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "explorer.confirmDragAndDrop": false,
-  "editor.tabSize": 2,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "explorer.confirmDelete": false,
-  "solidity.soliumRules": {
-    "imports-on-top": 0,
-    "variable-declarations": 0,
-    "indentation": [
-      null,
-      2
-    ],
-    "quotes": [
-      "warn",
-      "double"
-    ]
-  },
-  "window.zoomLevel": 0,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "workbench.statusBar.feedback.visible": false,
-  "eslint.alwaysShowStatus": true,
-  "editor.multiCursorModifier": "alt",
-  "window.titleBarStyle": "custom",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": false,
-  "terminal.integrated.rendererType": "dom",
-  "editor.tokenColorCustomizations": {
-    "[Default Dark+]": {
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic",
-            "foreground": "#708090"
-          }
-        }
+    "typescript.check.npmIsInstalled": false,
+    "editor.fontSize": 12,
+    "git.enableSmartCommit": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
+    "editor.renderControlCharacters": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "explorer.confirmDelete": false,
+    "solidity.soliumRules": {
+      "imports-on-top": 0,
+      "variable-declarations": 0,
+      "indentation": [
+        null,
+        2
+      ],
+      "quotes": [
+        "warn",
+        "double"
       ]
-    }
-  },
-  "editor.detectIndentation": false,
-  "files.eol": "\n",
-  "workbench.colorCustomizations": {
-    "[Default Dark+]": {
-      "statusBar.background": "#3c3c3c"
-    }
+    },
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.statusBar.feedback.visible": false,
+    "eslint.alwaysShowStatus": true,
+    "editor.multiCursorModifier": "alt",
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.rendererType": "dom",
+    "editor.tokenColorCustomizations": {
+      "[Default Dark+]": {
+        "textMateRules": [
+          {
+            "scope": "comment",
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#708090"
+            }
+          }
+        ]
+      }
+    },
+    "editor.detectIndentation": false,
+    "files.eol": "\n",
+    "workbench.colorCustomizations": {
+      "[Default Dark+]": {
+        "statusBar.background": "#3c3c3c"
+      }
+    },
+    "workbench.colorTheme": "Atom One Dark"
   }
-}
