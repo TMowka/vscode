@@ -56,5 +56,6 @@
   "workbench.colorTheme": "Atom One Dark",
   "files.exclude": {
     "**/.git": false
-  }
+  },
+  "terminal.integrated.fontSize": 12
 }
