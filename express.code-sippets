@@ -1,0 +1,48 @@
+{
+  "Express Controller Action": {
+    "prefix": "!expra",
+    "scope": "javascript",
+    "body": [
+      "module.exports.$1 = async (req, res, next) => {",
+      "\ttry {",
+      "\t\t$2",
+      "\t} catch (error) {",
+      "\t\tnext(error);",
+      "\t}",
+      "};",
+      ""
+    ]
+  },
+  "Express Router": {
+    "prefix": "!exprr",
+    "scope": "javascript",
+    "body": [
+      "const { Router } = require('express');",
+      "",
+      "const $1Router = Router();",
+      "",
+      "// public",
+      "$2",
+      "",
+      "// private",
+      "$3",
+      "",
+      "module.exports = $1Router;",
+      ""
+    ]
+  },
+  "Express Dto Model": {
+    "prefix": "!exprdto",
+    "scope": "javascript",
+    "body": [
+      "class ${TM_FILENAME_BASE/(^[a-zA-Z])/${1:/upcase}/} {",
+      "\tconstructor(data) {",
+      "\t\t$1",
+      "\t}",
+      "}",
+      "",
+      "module.exports = ${TM_FILENAME_BASE/(^[a-zA-Z])/${1:/upcase}/};",
+      ""
+    ]
+  }
+}
