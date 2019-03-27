@@ -1,6 +1,6 @@
 {
   "React Class Component": {
-    "prefix": "rcls",
+    "prefix": "!rcls",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React, { Component } from 'react';",
@@ -27,7 +27,7 @@
     ]
   },
   "React Functional Component": {
-    "prefix": "rfn",
+    "prefix": "!rfn",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React from 'react';",
@@ -55,7 +55,7 @@
     ]
   },
   "React Memo Functional Component": {
-    "prefix": "rmfn",
+    "prefix": "!rmfn",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React from 'react';",
@@ -81,7 +81,7 @@
     ]
   },
   "React Pure Component": {
-    "prefix": "rpcls",
+    "prefix": "!rpcls",
     "scope": "javascript,javascriptreact",
     "body": [
       "import React, { PureComponent } from 'react';",
@@ -108,7 +108,7 @@
     ]
   },
   "Duck": {
-    "prefix": "duck",
+    "prefix": "!duck",
     "scope": "javascript",
     "body": [
       "import { Record } from 'immutable';",
