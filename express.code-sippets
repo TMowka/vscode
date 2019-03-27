@@ -1,6 +1,6 @@
 {
   "Express Controller Action": {
-    "prefix": "!expra",
+    "prefix": "!expract",
     "scope": "javascript",
     "body": [
       "module.exports.$1 = async (req, res, next) => {",
@@ -14,18 +14,15 @@
     ]
   },
   "Express Router": {
-    "prefix": "!exprr",
+    "prefix": "!exprrout",
     "scope": "javascript",
     "body": [
       "const { Router } = require('express');",
+      "const controller = require('./controller');",
       "",
       "const $1Router = Router();",
       "",
-      "// public",
       "$2",
-      "",
-      "// private",
-      "$3",
       "",
       "module.exports = $1Router;",
       ""
