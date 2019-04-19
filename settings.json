@@ -29,7 +29,6 @@
   "workbench.statusBar.feedback.visible": false,
   "eslint.alwaysShowStatus": true,
   "editor.multiCursorModifier": "alt",
-  "window.titleBarStyle": "custom",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
   "terminal.integrated.rendererType": "dom",
@@ -58,5 +57,6 @@
     "**/.git": false
   },
   "terminal.integrated.fontSize": 12,
-  "editor.renderFinalNewline": true
+  "editor.renderFinalNewline": true,
+  "window.menuBarVisibility": "toggle"
 }
