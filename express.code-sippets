@@ -41,5 +41,32 @@
       "module.exports = ${TM_FILENAME_BASE/(^[a-zA-Z])/${1:/upcase}/};",
       ""
     ]
+  },
+  "Express Cron Job": {
+    "prefix": "!exprcron",
+    "scope": "javascript",
+    "body": [
+      "const { CronJob } = require('cron');",
+      "",
+      "/**",
+      " * Don't use the arrow function",
+      " * https://www.npmjs.com/package/cron#gotchas",
+      " */",
+      "async function ${TM_FILENAME_BASE}Cron() {",
+      "\ttry {",
+      "\t\t$1",
+      "\t} catch (error) {",
+      "\t\tconsole.error('[${TM_FILENAME_BASE}Cron]', error.message); // eslint-disable-line no-console",
+      "\t\treturn Promise.resolve();",
+      "\t}",
+      "}",
+      "",
+      "module.exports = new CronJob({",
+      "\tcronTime: $2,",
+      "\tonTick: ${TM_FILENAME_BASE}Cron,",
+      "\trunOnInit: $3,",
+      "});",
+      ""
+    ]
   }
 }
