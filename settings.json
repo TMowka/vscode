@@ -52,11 +52,12 @@
       "statusBar.background": "#3c3c3c"
     }
   },
-  "workbench.colorTheme": "Atom One Dark",
   "files.exclude": {
     "**/.git": false
   },
   "terminal.integrated.fontSize": 12,
   "editor.renderFinalNewline": true,
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Horizon Bold",
+  "scm.diffDecorations": "overview"
 }
