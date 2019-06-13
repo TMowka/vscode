@@ -1,0 +1,12 @@
+{
+  "For Loop": {
+    "prefix": "for",
+    "scope": "javascript",
+    "body": [
+      "for(let ${1:index} = 0; ${1:index} < ${2:array}.length; ${1:index} += 1) {",
+      "\tconst ${3:element} = array[${1:index}];",
+      "\t$4",
+      "}"
+    ]
+  }
+}
