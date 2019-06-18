@@ -58,6 +58,9 @@
   "terminal.integrated.fontSize": 12,
   "editor.renderFinalNewline": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Horizon Bold",
-  "scm.diffDecorations": "none"
+  "workbench.colorTheme": "Atom One Dark",
+  "scm.diffDecorations": "none",
+  "breadcrumbs.enabled": false,
+  "git.confirmSync": false,
+  "git.autofetch": false
 }
