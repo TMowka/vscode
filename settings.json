@@ -63,5 +63,13 @@
   "breadcrumbs.enabled": false,
   "git.confirmSync": false,
   "git.autofetch": false,
-  "git.inputValidationLength": 72
+  "git.inputValidationLength": 72,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#fff",
+      "backgroundColor": "grey",
+      "overviewRulerColor": "rgb(128, 128, 128, 0.8)"
+    }
+  ]
 }
