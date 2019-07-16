@@ -62,5 +62,6 @@
   "scm.diffDecorations": "none",
   "breadcrumbs.enabled": false,
   "git.confirmSync": false,
-  "git.autofetch": false
+  "git.autofetch": false,
+  "git.inputValidationLength": 72
 }
